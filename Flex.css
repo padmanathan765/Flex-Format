@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(92, 235, 207);
+}
+.title h1{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 4px 2px grey;
+    color: rgb(66, 4, 4);
+}
+
+.navigation{
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.menus ul li {
+    display: inline-block;
+    list-style-type: none;
+    word-spacing: 5px;
+}
+
+.menus ul li a{
+    margin-right: 10px;
+    color: rgb(247, 5, 5);
+    padding: 5px;
+    text-shadow: 1px 1px grey;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menus ul li a:hover{
+    color: rgb(229, 251, 27);
+}
+
+.Login ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px grey;
+}
+.Login ul li a:hover{
+    color: rgb(250, 4, 4);
+}
+.Login ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+button{
+    background: yellow;
+    width: 150px;
+    border-radius: 50px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.bgimg{
+    background-image: url(pexels-christian-heitz-285904-842711.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    position: relative;
+}
+.bgimg-text p{
+    color: white;
+    line-height: 1.5;
+    word-spacing: 3px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-size: large;
+    text-shadow: 2px 1px grey;
+}
+
+.Tour-places{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.place-1 img{
+    width:300px;
+    height: 200px;
+}
+
+.desc-places{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.place-details{
+    padding: 5px;
+}
+
+.desc-place-1 img{
+    width: 300px;
+    height: 200px;
+}
+
+.detail-text h1{
+    text-shadow: 2px 1px grey;
+}
+
+.detail-text h3{
+    font-variant: small-caps;
+    text-shadow:2px 1px grey ;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: rgb(30, 72, 9);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.footer-item {
+    margin: 5px;
+    line-height: 1.5;
+    font-size: medium;
+    word-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px grey;
+}
+
